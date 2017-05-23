@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.PIS.Common.Models
 {
-    class Class2
+    public class Employee
     {
     }
 }
