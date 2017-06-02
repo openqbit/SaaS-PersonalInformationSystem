@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Notification.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="MessageDetail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -55,4 +58,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-</Project>
+ </Project>
