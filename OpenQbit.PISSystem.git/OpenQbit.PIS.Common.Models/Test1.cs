@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.PIS.Common.Models
 {
-    public class Class1
+    public class Test1
     {
+
     }
 }
