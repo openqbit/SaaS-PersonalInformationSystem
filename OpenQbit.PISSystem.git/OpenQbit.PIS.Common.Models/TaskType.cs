@@ -8,8 +8,8 @@ namespace OpenQbit.PIS.Common.Models
 {
     public class TaskType
     {
-        private string ID { get; set; }
-        private string TaskName { get; set; }
-        private ICollection<TaskDetail> TaskDetail { get; set; }
+        public string ID { get; set; }
+        public string TaskName { get; set; }
+        public ICollection<TaskDetail> TaskDetail { get; set; }
     }
 }
