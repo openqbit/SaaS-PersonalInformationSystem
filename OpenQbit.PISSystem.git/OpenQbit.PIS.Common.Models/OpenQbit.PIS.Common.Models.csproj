@@ -51,7 +51,6 @@
   <ItemGroup>
     <Compile Include="Message.cs" />
     <Compile Include="MessageDetail.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Notification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -60,7 +59,9 @@
     <Compile Include="Test1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
