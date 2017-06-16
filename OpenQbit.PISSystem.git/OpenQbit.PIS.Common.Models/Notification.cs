@@ -1,10 +1,11 @@
+using OpenQbit.PIS.Common.Models;
 using System;
 
 using System.Collections.Generic;
 
 public class Notification
 {
-
+    public int ID { get; set; }
 
     public string Desc { get; set; }
 
