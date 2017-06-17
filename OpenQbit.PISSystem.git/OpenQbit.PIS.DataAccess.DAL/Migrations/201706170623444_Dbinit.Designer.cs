@@ -7,13 +7,13 @@ namespace OpenQbit.PIS.DataAccess.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class DBPIS : IMigrationMetadata
+    public sealed partial class Dbinit : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DBPIS));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Dbinit));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706160708206_DBPIS"; }
+            get { return "201706170623444_Dbinit"; }
         }
         
         string IMigrationMetadata.Source

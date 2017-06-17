@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.PIS.Service.WebAPI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.PIS.Common.Models", "OpenQbit.PIS.Common.Models\OpenQbit.PIS.Common.Models.csproj", "{04C36504-D10E-48F0-AC14-CAA76802353B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.PIS.BusinessService", "OpenQbit.PIS.BusinessService.BLL\OpenQbit.PIS.BusinessService.csproj", "{382C3CC5-8627-4585-A02A-D07CA792779D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.PIS.BusinessService.Contracts", "OpenQbit.PIS.BusinessService.Contracts\OpenQbit.PIS.BusinessService.Contracts.csproj", "{6B595738-8D63-40A6-9C61-868C28A3E92B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{04C36504-D10E-48F0-AC14-CAA76802353B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04C36504-D10E-48F0-AC14-CAA76802353B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04C36504-D10E-48F0-AC14-CAA76802353B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382C3CC5-8627-4585-A02A-D07CA792779D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382C3CC5-8627-4585-A02A-D07CA792779D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382C3CC5-8627-4585-A02A-D07CA792779D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382C3CC5-8627-4585-A02A-D07CA792779D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B595738-8D63-40A6-9C61-868C28A3E92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B595738-8D63-40A6-9C61-868C28A3E92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B595738-8D63-40A6-9C61-868C28A3E92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B595738-8D63-40A6-9C61-868C28A3E92B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +66,7 @@ Global
 		{9578C1CF-6AFF-4721-A900-848391490706} = {E4F0F019-E255-4E79-9B80-83D136EF9A47}
 		{A2467F48-85E0-4CC9-B2E3-65D180ED9B7B} = {A48BE782-4E08-4C26-8AA5-740D8B4D76D8}
 		{04C36504-D10E-48F0-AC14-CAA76802353B} = {137BAFE0-D303-4306-B047-63C13E849640}
+		{382C3CC5-8627-4585-A02A-D07CA792779D} = {EF476BD0-7288-4A4D-A955-EA2CC3970685}
+		{6B595738-8D63-40A6-9C61-868C28A3E92B} = {EF476BD0-7288-4A4D-A955-EA2CC3970685}
 	EndGlobalSection
 EndGlobal

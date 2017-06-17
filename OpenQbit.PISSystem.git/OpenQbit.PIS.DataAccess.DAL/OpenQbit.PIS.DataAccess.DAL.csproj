@@ -50,28 +50,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Migrations\201706160708206_DBPIS.cs" />
-    <Compile Include="Migrations\201706160708206_DBPIS.Designer.cs">
-      <DependentUpon>201706160708206_DBPIS.cs</DependentUpon>
+    <Compile Include="Migrations\201706170623444_Dbinit.cs" />
+    <Compile Include="Migrations\201706170623444_Dbinit.Designer.cs">
+      <DependentUpon>201706170623444_Dbinit.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PISContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706160708206_DBPIS.resx">
-      <DependentUpon>201706160708206_DBPIS.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenQbit.PIS.Common.Models\OpenQbit.PIS.Common.Models.csproj">
       <Project>{04c36504-d10e-48f0-ac14-caa76802353b}</Project>
       <Name>OpenQbit.PIS.Common.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201706170623444_Dbinit.resx">
+      <DependentUpon>201706170623444_Dbinit.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
