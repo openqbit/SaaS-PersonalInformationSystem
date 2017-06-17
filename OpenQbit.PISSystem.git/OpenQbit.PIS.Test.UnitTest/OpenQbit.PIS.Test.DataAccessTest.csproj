@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenQbit.PIS.Common.Models\OpenQbit.PIS.Common.Models.csproj">
-      <Project>{2f27baf4-0472-483e-8f15-9655398fa872}</Project>
+      <Project>{04c36504-d10e-48f0-ac14-caa76802353b}</Project>
       <Name>OpenQbit.PIS.Common.Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\OpenQbit.PIS.DataAccess.DAL\OpenQbit.PIS.DataAccess.DAL.csproj">

@@ -22,10 +22,7 @@ namespace OpenQbit.PIS.DataAccess.DAL
         public DbSet <MessageDetail> MessageDetail { get; set; }
         public DbSet<Employee> Employee { get; set; }
 
-        public void SaveChanges()
-        {
-            throw new NotImplementedException();
-        }
+      
 
         public DbSet<Notification> Notification { get; set; }
 

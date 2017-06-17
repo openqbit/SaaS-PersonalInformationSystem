@@ -59,12 +59,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenQbit.PIS.Common.Models\OpenQbit.PIS.Common.Models.csproj">
-      <Project>{2f27baf4-0472-483e-8f15-9655398fa872}</Project>
-      <Name>OpenQbit.PIS.Common.Models</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -72,6 +66,12 @@
     <EmbeddedResource Include="Migrations\201706160708206_DBPIS.resx">
       <DependentUpon>201706160708206_DBPIS.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.PIS.Common.Models\OpenQbit.PIS.Common.Models.csproj">
+      <Project>{04c36504-d10e-48f0-ac14-caa76802353b}</Project>
+      <Name>OpenQbit.PIS.Common.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

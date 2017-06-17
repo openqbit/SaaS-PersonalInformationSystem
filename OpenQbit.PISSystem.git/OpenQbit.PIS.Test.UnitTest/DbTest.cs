@@ -44,9 +44,7 @@ namespace OpenQbit.PIS.Test.UnitTest
 
                 Name = "Naduni",
 
-                Address = "galle",
-
-                Task = new Task(),
+                Address = "galle"
             };
             db.Employee.Add(newEmp);
             db.SaveChanges();
@@ -100,9 +98,9 @@ namespace OpenQbit.PIS.Test.UnitTest
 
                 MessageID = 123,
 
-                StatusE_mail = true,
+                StatusEmail = true,
 
-                StatusInternalE_mail = true,
+                StatusInternalEmail = true,
 
                 StatusSMS = true,
             };
@@ -132,9 +130,7 @@ namespace OpenQbit.PIS.Test.UnitTest
                 MessageTime = new DateTime(2017, 06, 16),
 
                 MessageDescription = "personal",
-
-                MessageType = "personal",
-
+                
                 MessageDetail = md
             };
             db.Message.Add(newMsg);
@@ -149,99 +145,100 @@ namespace OpenQbit.PIS.Test.UnitTest
             }
 
         }
-        private class NewMessageCollection : ICollection<MessageDetail>
-        {
-            public int Count
-            {
-                get
-                {
-                    throw new NotImplementedException();
-                }
-            }
 
-            public bool IsReadOnly
-            {
-                get
-                {
-                    throw new NotImplementedException();
-                }
-            }
+        //private class NewMessageCollection : ICollection<MessageDetail>
+        //{
+        //    public int Count
+        //    {
+        //        get
+        //        {
+        //            throw new NotImplementedException();
+        //        }
+        //    }
 
-            public void Add(MessageDetail item)
-            {
-                throw new NotImplementedException();
-            }
+        //    public bool IsReadOnly
+        //    {
+        //        get
+        //        {
+        //            throw new NotImplementedException();
+        //        }
+        //    }
 
-            public void Clear()
-            {
-                throw new NotImplementedException();
-            }
+        //    public void Add(MessageDetail item)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
 
-            public bool Contains(MessageDetail item)
-            {
-                throw new NotImplementedException();
-            }
+        //    public void Clear()
+        //    {
+        //        throw new NotImplementedException();
+        //    }
 
-            public void CopyTo(MessageDetail[] array, int arrayIndex)
-            {
-                throw new NotImplementedException();
-            }
+        //    public bool Contains(MessageDetail item)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
 
-            public IEnumerator<MessageDetail> GetEnumerator()
-            {
-                throw new NotImplementedException();
-            }
+        //    public void CopyTo(MessageDetail[] array, int arrayIndex)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
 
-            public bool Remove(MessageDetail item)
-            {
-                throw new NotImplementedException();
-            }
+        //    public IEnumerator<MessageDetail> GetEnumerator()
+        //    {
+        //        throw new NotImplementedException();
+        //    }
 
-            public virtual IEnumerator IEnumerable.GetEnumerator()
-            {
-                return new MsgCollectionEnumerator<MessageDetail>();
-            }
-        }
+        //    public bool Remove(MessageDetail item)
+        //    {
+        //        throw new NotImplementedException();
+        //    }
+
+        //    public virtual IEnumerator IEnumerable.GetEnumerator()
+        //    {
+        //        return new MsgCollectionEnumerator<MessageDetail>();
+        //    }
+        //}
     }
 
-    internal class MsgCollectionEnumerator<T> : IEnumerator<T> where T:MessageDetail
-    {
-        private NewMessageCollection newMessageCollection;
+    //internal class MsgCollectionEnumerator<T> : IEnumerator<T> where T:MessageDetail
+    //{
+    //    private NewMessageCollection newMessageCollection;
 
-        public MsgCollectionEnumerator(NewMessageCollection newMessageCollection)
-        {
-            this.newMessageCollection = newMessageCollection;
-        }
+    //    public MsgCollectionEnumerator(NewMessageCollection newMessageCollection)
+    //    {
+    //        this.newMessageCollection = newMessageCollection;
+    //    }
 
-        public T Current
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
+    //    public T Current
+    //    {
+    //        get
+    //        {
+    //            throw new NotImplementedException();
+    //        }
+    //    }
 
-        object IEnumerator.Current
-        {
-            get
-            {
-                throw new NotImplementedException();
-            }
-        }
+    //    object IEnumerator.Current
+    //    {
+    //        get
+    //        {
+    //            throw new NotImplementedException();
+    //        }
+    //    }
 
-        public void Dispose()
-        {
-            throw new NotImplementedException();
-        }
+    //    public void Dispose()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-        public bool MoveNext()
-        {
-            throw new NotImplementedException();
-        }
+    //    public bool MoveNext()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
 
-        public void Reset()
-        {
-            throw new NotImplementedException();
-        }
-    }
+    //    public void Reset()
+    //    {
+    //        throw new NotImplementedException();
+    //    }
+    //}
 }
