@@ -11,7 +11,7 @@ public class Employee
 
     public string Address { get; set; }
 
-    public virtual Task Task { get; set; }  // Test Comment
+    public virtual ICollection<Task> Task { get; set; }  // Test Comment
 
 
 }
