@@ -10,6 +10,6 @@ namespace OpenQbit.PIS.Common.Models
     {
         public string ID { get; set; }
         public string TaskName { get; set; }
-        public ICollection<TaskDetail> TaskDetail { get; set; }
+        public ICollection<Task> Task { get; set; }
     }
 }

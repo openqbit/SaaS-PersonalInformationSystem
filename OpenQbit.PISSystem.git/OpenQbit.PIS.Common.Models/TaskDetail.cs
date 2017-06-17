@@ -11,6 +11,9 @@ namespace OpenQbit.PIS.Common.Models
         public int ID { get; set; }
         public DateTime TaskDateAndTime { get; set; }
 
+        public int TaskId { get; set; }
+        public int EmployeeId { get; set; }
+
         public virtual Task Task { get; set; }
         public virtual Employee Employee { get; set; }
     }
