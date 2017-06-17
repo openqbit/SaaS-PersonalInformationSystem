@@ -9,8 +9,8 @@ namespace OpenQbit.PIS.Common.Models
     public class MessageDetail
     {
         public int ID { get; set; }
-        public bool StatusE_mail{ get; set; }
-        public bool StatusInternalE_mail { get; set; }
+        public bool StatusEmail{ get; set; }
+        public bool StatusInternalEmail { get; set; }
         public bool StatusSMS { get; set; }
         public int EmployeeID { get; set; }
         public int MessageID { get; set; }

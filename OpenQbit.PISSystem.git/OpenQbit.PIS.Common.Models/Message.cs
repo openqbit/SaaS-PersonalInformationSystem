@@ -10,7 +10,6 @@ namespace OpenQbit.PIS.Common.Models
     {
         public int ID { get; set; }
         public string MessageDescription { get; set; }
-        public string MessageType { get; set; }
         public DateTime MessageDate { get; set; }
         public DateTime MessageTime { get; set; }
 
