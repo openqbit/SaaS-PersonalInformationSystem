@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenQbit.PIS.BusinessService.Contracts
+namespace OpenQbit.PIS.DataAccess.DAL.Contracts
 {
     public class Class1
     {
