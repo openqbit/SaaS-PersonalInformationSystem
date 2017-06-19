@@ -13,5 +13,6 @@ namespace OpenQbit.PIS.Service.WebAPI.Models.API
 
         public string Address { get; set; }
 
+        public virtual ICollection<Common.Models.Task> Task { get; set; }  // Test Comment
     }
 }
