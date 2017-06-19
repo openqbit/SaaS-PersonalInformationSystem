@@ -9,10 +9,11 @@ using System.Threading.Tasks;
 using OpenQbit.PIS.Common.Models;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using OpenQbit.PIS.DataAccess.DAL.Contracts;
 
 namespace OpenQbit.PIS.DataAccess.DAL
 {
-    public class PISContext :DbContext
+    public class PISContext : DbContext, IPISContext
     {
         public PISContext() : base("PISDB")
         {
