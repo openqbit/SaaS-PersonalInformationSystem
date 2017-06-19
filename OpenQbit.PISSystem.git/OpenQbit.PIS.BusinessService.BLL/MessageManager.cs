@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQbit.PIS.BusinessService.Contracts;
-
+using OpenQbit.PIS.DataAccess.DAL.Contracts;
 
 namespace OpenQbit.PIS.BusinessService.BLL
 {
