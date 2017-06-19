@@ -6,12 +6,19 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQbit.PIS.BusinessService.Contracts;
 using OpenQbit.PIS.DataAccess.DAL.Contracts;
+using Microsoft.Practices.Unity;
 
 namespace OpenQbit.PIS.BusinessService.BLL
 {
     public class MessageManager : IMessageMannager
     {
         IRepository _repository;
+
+        [InjectionConstructor]
+        public MessageManager(IRepository repository)
+        {
+            this._repository = repository;
+        }
         public bool Delete<T>(T obj) where T : class
         {
             return _repository.Delete(obj);

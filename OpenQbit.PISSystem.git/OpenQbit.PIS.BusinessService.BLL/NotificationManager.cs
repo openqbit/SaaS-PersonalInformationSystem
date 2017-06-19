@@ -6,12 +6,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Expressions;
 using OpenQbit.PIS.DataAccess.DAL.Contracts;
+using Microsoft.Practices.Unity;
 
 namespace OpenQbit.PIS.BusinessService.BLL
 {
     public class NotificationManager : INotificationManager
     {
         IRepository _repository;
+
+        [InjectionConstructor]
         public NotificationManager(IRepository repository)
         {
             this._repository = repository;
