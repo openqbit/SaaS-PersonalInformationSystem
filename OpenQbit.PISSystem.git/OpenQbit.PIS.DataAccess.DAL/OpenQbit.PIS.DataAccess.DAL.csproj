@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Migrations\201706170623444_Dbinit.cs" />
     <Compile Include="Migrations\201706170623444_Dbinit.Designer.cs">
       <DependentUpon>201706170623444_Dbinit.cs</DependentUpon>
