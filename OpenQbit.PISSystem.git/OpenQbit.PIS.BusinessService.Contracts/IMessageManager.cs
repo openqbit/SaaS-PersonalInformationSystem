@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.PIS.BusinessService.Contracts
 {
-    public interface IMessageMannager : ICommonServiceManager 
+    public interface IMessageManager : ICommonServiceManager 
     {
 
     }

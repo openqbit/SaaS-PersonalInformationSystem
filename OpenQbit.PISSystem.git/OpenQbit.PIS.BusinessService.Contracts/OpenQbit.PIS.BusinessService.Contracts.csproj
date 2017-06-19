@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICommonServiceManager.cs" />
-    <Compile Include="IMessageMannager.cs" />
+    <Compile Include="IMessageManager.cs" />
     <Compile Include="INotificationManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
