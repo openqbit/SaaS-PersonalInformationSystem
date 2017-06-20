@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.PIS.BusinessServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.PIS.DataAccess.DAL.Contracts", "OpenQbit.PIS.DataAccess.DAL.Contracts\OpenQbit.PIS.DataAccess.DAL.Contracts.csproj", "{F376DEDB-9E92-42F0-865D-66013F9840C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.PIS.Common.Ioc", "OpenQbit.PIS.Common.Ioc\OpenQbit.PIS.Common.Ioc.csproj", "{4CC26E3E-1022-46F5-9E4C-B2C8810DBDCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F376DEDB-9E92-42F0-865D-66013F9840C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F376DEDB-9E92-42F0-865D-66013F9840C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F376DEDB-9E92-42F0-865D-66013F9840C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC26E3E-1022-46F5-9E4C-B2C8810DBDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC26E3E-1022-46F5-9E4C-B2C8810DBDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC26E3E-1022-46F5-9E4C-B2C8810DBDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC26E3E-1022-46F5-9E4C-B2C8810DBDCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +81,6 @@ Global
 		{382C3CC5-8627-4585-A02A-D07CA792779D} = {EF476BD0-7288-4A4D-A955-EA2CC3970685}
 		{6B595738-8D63-40A6-9C61-868C28A3E92B} = {EF476BD0-7288-4A4D-A955-EA2CC3970685}
 		{F376DEDB-9E92-42F0-865D-66013F9840C0} = {FC70754F-C6CB-40DD-B9AA-6FB335579282}
+		{4CC26E3E-1022-46F5-9E4C-B2C8810DBDCD} = {137BAFE0-D303-4306-B047-63C13E849640}
 	EndGlobalSection
 EndGlobal
