@@ -208,6 +208,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\API\MessageController.cs" />
     <Compile Include="Controllers\API\NotificationController.cs" />
+    <Compile Include="Controllers\API\TaskController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -218,6 +219,7 @@
     <Compile Include="Models\API\APIEmployeeModel.cs" />
     <Compile Include="Models\API\APIMessageModel.cs" />
     <Compile Include="Models\API\APINotificationModel.cs" />
+    <Compile Include="Models\API\APITaskModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
@@ -284,6 +286,7 @@
     <Folder Include="Views\Default\" />
     <Folder Include="Views\Message\" />
     <Folder Include="Views\Notification\" />
+    <Folder Include="Views\Task\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
