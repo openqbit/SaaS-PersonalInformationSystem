@@ -1,6 +1,7 @@
 ﻿using Microsoft.Practices.Unity;
 using OpenQbit.PIS.BusinessService.BLL;
 using OpenQbit.PIS.BusinessService.Contracts;
+using OpenQbit.PIS.Common.Utils.Logs;
 using OpenQbit.PIS.DataAccess.DAL;
 using OpenQbit.PIS.DataAccess.DAL.Contracts;
 using System;
@@ -18,6 +19,7 @@ namespace OpenQbit.PIS.Common.Ioc
         private static void Register()
         {
             Container.RegisterType<IRepository, Repository>();
+            Container.RegisterType<ILogger, Logger>();
             //BLL
             Container.RegisterType<IMessageManager, MessageManager>();
             Container.RegisterType<INotificationManager, NotificationManager>();
