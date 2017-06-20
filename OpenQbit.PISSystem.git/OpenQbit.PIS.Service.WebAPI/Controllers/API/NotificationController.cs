@@ -14,11 +14,6 @@ namespace OpenQbit.PIS.Service.WebAPI.Controllers.API
 {
     public class NotificationController : ApiController
     {
-        // GET: Notification
-        //public ActionResult Index()
-        //{
-        //    return View();
-        //}
         INotificationManager _notificationManager = UnityResolver.Resolve<INotificationManager>();
 
         public HttpResponseMessage Post(APINotificationModel notification)
