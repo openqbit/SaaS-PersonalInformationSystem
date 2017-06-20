@@ -8,6 +8,7 @@ using System.Web.Http;
 using OpenQbit.PIS.Service.WebAPI;
 using OpenQbit.PIS.Service.WebAPI.Models.API;
 using System.Net;
+using OpenQbit.PIS.Common.Ioc;
 
 namespace OpenQbit.PIS.Service.WebAPI.Controllers.API
 {

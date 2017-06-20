@@ -281,6 +281,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Notification\" />
     <Folder Include="Views\Task\" />
   </ItemGroup>
   <ItemGroup>
@@ -295,6 +296,10 @@
     <ProjectReference Include="..\OpenQbit.PIS.BusinessService.Contracts\OpenQbit.PIS.BusinessService.Contracts.csproj">
       <Project>{6b595738-8d63-40a6-9c61-868c28a3e92b}</Project>
       <Name>OpenQbit.PIS.BusinessService.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.PIS.Common.Ioc\OpenQbit.PIS.Common.Ioc.csproj">
+      <Project>{4cc26e3e-1022-46f5-9e4c-b2c8810dbdcd}</Project>
+      <Name>OpenQbit.PIS.Common.Ioc</Name>
     </ProjectReference>
     <ProjectReference Include="..\OpenQbit.PIS.Common.Models\OpenQbit.PIS.Common.Models.csproj">
       <Project>{04c36504-d10e-48f0-ac14-caa76802353b}</Project>
