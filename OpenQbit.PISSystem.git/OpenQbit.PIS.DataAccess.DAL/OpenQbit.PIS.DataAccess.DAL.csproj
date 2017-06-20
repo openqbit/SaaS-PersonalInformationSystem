@@ -85,6 +85,10 @@
       <Project>{04c36504-d10e-48f0-ac14-caa76802353b}</Project>
       <Name>OpenQbit.PIS.Common.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.PIS.Common.Utils.Logs\OpenQbit.PIS.Common.Utils.Logs.csproj">
+      <Project>{7ce0f663-a2e8-45cb-9f59-e87d5375ade3}</Project>
+      <Name>OpenQbit.PIS.Common.Utils.Logs</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OpenQbit.PIS.DataAccess.DAL.Contracts\OpenQbit.PIS.DataAccess.DAL.Contracts.csproj">
       <Project>{f376dedb-9e92-42f0-865d-66013f9840c0}</Project>
       <Name>OpenQbit.PIS.DataAccess.DAL.Contracts</Name>
