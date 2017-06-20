@@ -1,11 +1,7 @@
 ﻿using OpenQbit.PIS.BusinessService.Contracts;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
-using System.Web;
 using System.Web.Http;
-using OpenQbit.PIS.Service.WebAPI;
 using OpenQbit.PIS.Service.WebAPI.Models.API;
 using System.Net;
 using OpenQbit.PIS.Common.Ioc;
@@ -36,18 +32,14 @@ namespace OpenQbit.PIS.Service.WebAPI.Controllers.API
 
         public APITaskModel Get(int? ID)
         {
-            
-
             return _taskManager.Find<APITaskModel>(e => e.ID == ID);
         }
 
         public List<APITaskModel> GetAll()
         {
-            
             return _taskManager.GetAll<APITaskModel>();
         }
     }
 }
         
-    }
-}
+    
