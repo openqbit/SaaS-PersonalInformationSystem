@@ -7,12 +7,20 @@ using System.Threading.Tasks;
 using System.Linq.Expressions;
 using Microsoft.Practices.Unity;
 using System.Data.Entity;
+using OpenQbit.PIS.Common.Utils.Logs;
 
 namespace OpenQbit.PIS.DataAccess.DAL
 {
     public class Repository : IRepository
     {
-        //include logger and constructer here.... to be...
+        private ILogger _logger;
+
+        [InjectionConstructor]
+        public Repository(ILogger _logger)
+        {
+            this._logger = _logger;
+        }
+
         PISContext _db = new PISContext();
         public bool Create<T>(T obj) where T : class
         {
