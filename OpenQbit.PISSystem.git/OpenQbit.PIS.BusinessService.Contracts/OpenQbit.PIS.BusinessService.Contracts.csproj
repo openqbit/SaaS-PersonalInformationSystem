@@ -59,10 +59,17 @@
     <Compile Include="ICommonServiceManager.cs" />
     <Compile Include="IMessageManager.cs" />
     <Compile Include="INotificationManager.cs" />
+    <Compile Include="ITaskManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.PIS.Common.Models\OpenQbit.PIS.Common.Models.csproj">
+      <Project>{04c36504-d10e-48f0-ac14-caa76802353b}</Project>
+      <Name>OpenQbit.PIS.Common.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
