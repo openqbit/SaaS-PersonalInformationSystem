@@ -10,7 +10,7 @@ using Microsoft.Practices.Unity;
 
 namespace OpenQbit.PIS.BusinessService.BLL
 {
-    public class MessageManager : IMessageManager
+    public class MessageManager :IMessageManager
     {
         IRepository _repository;
 
@@ -53,5 +53,6 @@ namespace OpenQbit.PIS.BusinessService.BLL
         {
             return _repository.Update(obj);
         }
+
     }
 }
