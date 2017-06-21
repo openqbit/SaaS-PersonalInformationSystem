@@ -1,4 +1,5 @@
 ﻿using OpenQbit.PIS.BusinessService.Contracts;
+using OpenQbit.PIS.Common.Ioc;
 using OpenQbit.PIS.Service.WebAPI.Models.API;
 using System;
 using System.Collections.Generic;
