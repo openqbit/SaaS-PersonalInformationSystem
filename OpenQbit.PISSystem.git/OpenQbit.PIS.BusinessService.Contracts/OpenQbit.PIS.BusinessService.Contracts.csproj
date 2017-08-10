@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICommonServiceManager.cs" />
+    <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IMessageManager.cs" />
     <Compile Include="INotificationManager.cs" />
     <Compile Include="ITaskManager.cs" />

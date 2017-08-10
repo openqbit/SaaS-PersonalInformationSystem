@@ -1,24 +1,26 @@
-﻿using System;
+﻿using OpenQbit.PIS.BusinessService.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
-using OpenQbit.PIS.BusinessService.Contracts;
+using System.Linq.Expressions;
 using OpenQbit.PIS.DataAccess.DAL.Contracts;
 using Microsoft.Practices.Unity;
 
 namespace OpenQbit.PIS.BusinessService.BLL
 {
-    public class MessageManager :IMessageManager
+    public class EmployeeManager : IEmployeeManager
     {
+
         IRepository _repository;
 
         [InjectionConstructor]
-        public MessageManager(IRepository repository)
+        public EmployeeManager(IRepository repository)
         {
             this._repository = repository;
         }
+
         public bool Delete<T>(T obj) where T : class
         {
             return _repository.Delete(obj);
@@ -53,6 +55,5 @@ namespace OpenQbit.PIS.BusinessService.BLL
         {
             return _repository.Update(obj);
         }
-
     }
 }
